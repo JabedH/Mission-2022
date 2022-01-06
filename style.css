@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* ---Mission-section---- */
 .Mission-section {
   display: flex;
   align-items: center;
@@ -9,10 +10,23 @@ body {
 }
 .Mission-section p {
   text-align: justify;
-  margin: 40px 0;
+}
+.about-us {
+  margin-top: -10px;
+}
+.border-align {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.half-width h1 {
+  font-size: 50px;
+}
+.border-align span {
+  color: #ec5863;
 }
 .left-border {
-  border-left: 5px solid tomato;
+  border-left: 5px solid rgb(255, 145, 0);
   height: 110px;
   margin-right: 20px;
 }
@@ -22,13 +36,9 @@ body {
 .half-width img {
   width: 70%;
 }
-.half-width h1 {
-  font-size: 50px;
-}
-#border-align {
-  display: flex;
-  align-items: center;
-  margin-right: 20px;
+
+.Explore-btn {
+  margin: 40px 0;
 }
 .Explore {
   text-decoration: none;
@@ -37,7 +47,7 @@ body {
   color: white;
   border-radius: 5px;
 }
-/* ----section two */
+/* ----section two--- */
 .section-two {
   margin: 5%;
 }
@@ -46,7 +56,7 @@ body {
   font-size: 40px;
 }
 .section-two span {
-  color: #ffad5a;
+  color: #ec5863;
 }
 .three-box {
   display: flex;
@@ -56,7 +66,7 @@ body {
 }
 .one-third {
   width: auto;
-  height: 370px;
+  height: 280px;
   background-color: wheat;
   padding: 20px;
   border-radius: 10px;
@@ -84,7 +94,7 @@ body {
 .third-section img {
   width: 80%;
 }
-.Without-Limi h3 {
+.Without-Limith3 {
   font-size: 40px;
 }
 .Documentation {
@@ -116,6 +126,34 @@ body {
   display: flex;
   justify-content: right;
 }
+
+/* --five-section */
+.five-section {
+  margin-top: 100px;
+}
+.five-section h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.five-discription {
+  display: flex;
+  justify-content: center;
+}
+.learning {
+  width: 40%;
+  box-shadow: 10px 10px 30px 1px #ccc;
+  padding: 50px;
+  height: auto;
+  border-radius: 10px;
+}
+.learning p {
+  text-align: justify;
+}
+.learning h4 {
+  font-size: 20px;
+  color: tomato;
+  text-align: center;
+}
 /* ---all-contact */
 .contact-sec {
   text-align: center;
@@ -130,39 +168,6 @@ body {
 .social {
   width: 50px;
 }
-/* --five-section */
-.five-section {
-  display: flex;
-  justify-content: center;
-}
-.third-sec h2 {
-  text-align: center;
-  margin-bottom: 50px;
-}
-.full-stack {
-  width: 40%;
-  box-shadow: 10px 10px 30px 1px #ccc;
-  padding: 50px;
-  height: 250px;
-  border-radius: 10px;
-}
-.full-stack p {
-  text-align: justify;
-}
-.full-stack h3 {
-  font-size: 30px;
-  padding-bottom: 25px;
-}
-.full-stack h4 {
-  margin-bottom: 20px;
-  color: #ffa500;
-}
-/* .Full-dev {
-  border-left: 10px solid;
-  border-image: linear-gradient(tomato, #ffa500);
-  border-image-slice: 1;
-  margin-left: 60px;
-} */
 /* ---footer--- */
 footer {
   text-align: center;
@@ -177,3 +182,4 @@ footer h2 {
   font-size: 30px;
   margin: 0;
 }
+/* ---------------------------------- */
