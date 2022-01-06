@@ -25,7 +25,7 @@ body {
 .border-align span {
   color: #ec5863;
 }
-.left-border {
+#left-border {
   border-left: 5px solid rgb(255, 145, 0);
   height: 110px;
   margin-right: 20px;
